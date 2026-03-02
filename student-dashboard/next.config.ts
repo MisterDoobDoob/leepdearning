@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+// Source - https://stackoverflow.com/a/78652216
+// Posted by nullsafe
+// Retrieved 2026-03-03, License - CC BY-SA 4.0
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  distDir: 'build',
 };
 
 export default nextConfig;
